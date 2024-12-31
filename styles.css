@@ -1,0 +1,112 @@
+body {
+  
+  font-family: Arial, sans-serif;
+  background:linear-gradient( #cde4eb,#ffffff);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+header {
+  background:url(images/travelling.jpeg);
+  background-size:auto;
+  color: #4b4848;
+  background-position:top;
+  padding: 10px 0;
+  text-align: center;
+  height: 250px;
+ 
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+
+header nav a {
+  color: #4b4a4a;
+  text-decoration: none;
+  display: inline;
+  margin: 0 15px;
+}
+
+
+
+.section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.blog-grid {
+  display: grid;
+  text-align: left;
+  gap: 20px;
+}
+
+.blog-card {
+  background: #cfcdcd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card h3 {
+  margin-top: 0;
+}
+.blog-card p{
+  font-size: 1.1rem;
+}
+.blog-card img{
+  float: right;
+  width:250px;
+  height: 250px;
+  border-radius: 10%;
+}
+.blog-card img:hover{
+  transform: scale(1.1);
+  transition: trsnform 1s ease-in-out;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7b8c9b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #a8c4d6;
+  box-shadow:0 0 20px #9db3c2,0 0 40px #9db3c2,0 0 90px #9db3c2;
+  color: #2c3742;
+}
+
+footer {
+  background:url(images/travelling.jpeg);
+  background-size:auto;
+  color: #000000;
+  background-position:center;
+  padding: 10px 0;
+  text-align: center;
+ height: 80px;
+}
+#about img{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.section h1{
+  font-size: 2.5rem;
+  margin-top:-10px;
+}
